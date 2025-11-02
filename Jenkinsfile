@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kururyk1/nodejs-demo.git'
+                git 'https://github.com/kururyk1/nodes-js-demo.git'
             }
         }
         stage('Build') {
